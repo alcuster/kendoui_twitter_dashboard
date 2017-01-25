@@ -1,0 +1,5 @@
+<kendo-grid [data]="view" [pageSize]="pageSize" [skip]="skip" [pageable]="true" (pageChange)="pageChange($event)">
+  <kendo-grid-column field="created_at" title="Date" width="40"></kendo-grid-column>
+  <kendo-grid-column field="user.name" title="Username" width="80"></kendo-grid-column>
+  <kendo-grid-column field="text" title="Text" width="800"></kendo-grid-column>
+</kendo-grid>

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import '../node_modules/@angular/material/core/theming/all-theme.scss';*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import "~@telerik/kendo-theme-default/styles/packages/all";
+
+// you can enter custom SCSS below
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 100;
+}
